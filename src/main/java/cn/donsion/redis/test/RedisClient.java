@@ -10,10 +10,10 @@ import redis.clients.jedis.JedisPoolConfig;
  */
 public class RedisClient {
 	
-		/*
-		 * 配置一系列参数
-		 */
-		private static JedisPool pool;
+	/*
+	 * 配置一系列参数
+	 */
+	    private static JedisPool pool;
 	    private static String host = "127.0.0.1";
 	    private static int port = 6379;
 	    private static int timeout = 60 * 1000;
